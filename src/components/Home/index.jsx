@@ -5,6 +5,7 @@ import PicsContainer from '../Carousel/PicsContainer';
 import TestimonialCarousel from '../TestmonialsCarousel';
 import HrVirtue from '../Hr';
 import PricingContainer from '../Pricing/PricingContainer';
+import bannerHero from '../../assets/img/banner-hero.png'
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
           <Button content="Registrar Memórias" to="/form" className="btn-large"/>
         </div>
      
-          <div className="hero-image"><img src="../../../src/assets/img/banner-hero.png"></img></div>
+          <div className="hero-image"><img src={bannerHero}></img></div>
           <Button content="Registrar Memórias" className="btn-mobile"></Button>
       </div>
     </main>
