@@ -3,6 +3,8 @@ import NavBar from '../Navbar';
 import Button from '../Button';
 import PicsContainer from '../Carousel/PicsContainer';
 import TestimonialCarousel from '../TestmonialsCarousel';
+import HrVirtue from '../Hr';
+import PricingContainer from '../Pricing/PricingContainer';
 
 
 const Home = () => {
@@ -22,8 +24,10 @@ const Home = () => {
           <Button content="Registrar Memórias" className="btn-mobile"></Button>
       </div>
     </main>
-    <div>
-    <PicsContainer/>
+
+    <section className="home-content">
+    <HrVirtue />
+    <PicsContainer />
     <TestimonialCarousel
   testimonials={[
      {
@@ -48,8 +52,13 @@ const Home = () => {
   }
   ]}
 />
+  <PricingContainer 
+  
+  />
+    </section>
+    
 
-    </div>
+
     </>
   );
 }

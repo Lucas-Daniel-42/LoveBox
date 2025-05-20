@@ -1,0 +1,43 @@
+.pricing-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #221C1F;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    height: 450px;
+    width: 250px;
+    font-family: Belgiano;
+}
+
+.pricing-title {
+    color: #BC101F;
+    text-align: start;
+    width: 100%;
+    font-weight: 700;
+}
+
+.pricing-text {
+    text-align: start;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.pricing-value {
+    text-align: start;
+    width: 100%;
+    font-size: 3em;
+}
+
+.pricing-card-container button {
+    background-color: #BC101F;
+    color: #d9d9d9;
+    width: 100%;
+}
+
+.pricing-card-container button:hover {
+    background-color: #221C1F;
+    width: 105%;
+}
