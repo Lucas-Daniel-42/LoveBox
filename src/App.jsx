@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Link,
+  NavLink,
   BrowserRouter
 } from 'react-router-dom';
 

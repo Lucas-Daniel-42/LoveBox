@@ -31,13 +31,13 @@
     font-size: 3em;
 }
 
-.pricing-card-container button {
+.pricing-card-container a {
     background-color: #BC101F;
     color: #d9d9d9;
-    width: 100%;
+    width: 75%;
 }
 
-.pricing-card-container button:hover {
+.pricing-card-container a:hover {
     background-color: #221C1F;
-    width: 105%;
+    width: 85%;
 }

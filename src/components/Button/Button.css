@@ -1,7 +1,9 @@
-button {
+a {
     display: block;
     font-family: 'Montserrat';
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
     color: #E2E2E2;
     background-color: #F285B4;
     padding: 15px 35px 15px 35px;
@@ -11,9 +13,14 @@ button {
     transition: ease-in 0.3s;
 }
 
-button:hover {
+a:hover {
     color: #BC101F;
     background-color: #E2E2E2;
     border-radius: 25px;
+}
 
+a:hover::after {
+    color: #BC101F;
+    background-color: #E2E2E2;
+    border-radius: 25px;
 }

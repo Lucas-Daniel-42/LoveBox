@@ -6,7 +6,6 @@ import TestimonialCarousel from '../TestmonialsCarousel';
 import HrVirtue from '../Hr';
 import PricingContainer from '../Pricing/PricingContainer';
 
-
 const Home = () => {
 
   return (
@@ -17,10 +16,10 @@ const Home = () => {
         <div className="hero-text">
           <h1>LoveBox</h1>
           <h2>A caixa de memórias do seu relacionamento</h2>
-          <Button content="Registrar Memórias" className="btn-large"/>
+          <Button content="Registrar Memórias" to="/form" className="btn-large"/>
         </div>
      
-          <div className="hero-image"><img src="src\assets\img\ChatGPT Image 16 de mai. de 2025, 09_36_09.png"></img></div>
+          <div className="hero-image"><img src="src\assets\img\banner-hero.png"></img></div>
           <Button content="Registrar Memórias" className="btn-mobile"></Button>
       </div>
     </main>
