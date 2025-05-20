@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: Belgiano;
+  src: url('./assets/fonts/belgiano_serif/Belgiano Serif 2.ttf');
+}
+
+body {
+  background-color: #000000;
+}
+
+h1, h2, h3 {
+  font-family: Belgiano, 'Times New Roman', Times, serif;
+}
+
+.spacer {
+    margin-top: 60px;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .form-section,
+  .preview-section {
+    flex: 1 1 450px;
+    max-width: 600px;
+  }

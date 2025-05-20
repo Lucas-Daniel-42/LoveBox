@@ -1,0 +1,81 @@
+@font-face {
+  font-family: beijocas;
+  src: url('..//..//assets/fonts/exmouth/exmouth_.ttf');
+}
+
+.mini-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: #0E0F2F;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .mini-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #0E0F2F;
+    color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .mini-title-area {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 45%;
+    background-image: url('..//..//assets/SVG/bg_title.svg');
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+  }
+  
+  .mini-title {
+    display: flex;
+    flex-direction: column;
+    color: #F285B4;
+    justify-content: top;
+    font-family: beijocas, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1rem;
+    font-size: 6em;
+  }
+
+  .mini-title .and {
+    font-size: xx-large;
+  }
+  
+  .mini-body {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mini-message {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .mini-image {
+    width: 70%;
+  }
+
+  .preview-image {
+    width: 100%;
+    border-radius: 9px;
+  }
+  
+  .mini-date {
+    font-weight: bold;
+  }
+  
+  .mini-footer {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  

@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+input, textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #E2E2E2;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: 3px solid #F285B4;
+  outline: none;
+}

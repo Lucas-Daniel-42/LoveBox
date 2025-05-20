@@ -1,0 +1,97 @@
+body {
+    background-color: #221C1F;
+    color: #d7d7e4;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    padding: 20px;
+    gap: 10%; 
+    color: #d7d7e4;
+    background-image: url('..//..//assets/bg/Gradients-Lab-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+
+.hero{
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  padding: 0 8% 200px 8%;
+  height: 70vh;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.hero-text h2 {
+  font-size: 2.2rem;
+  max-width: 500px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  transform: scale(1.1); /* ligeiramente maior */
+}
+.btn-mobile {
+  display: none;
+}
+
+/* 📱 Layout mobile */
+@media (max-width: 650px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.25rem;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+
+  .hero-image img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .btn-mobile {
+    display: block;
+  }
+
+  .btn-large {
+    display: none;
+    visibility: hidden;
+  }
+}
+

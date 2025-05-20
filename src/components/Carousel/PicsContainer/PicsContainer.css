@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.pics-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0; /* Os cards se sobrepõem */
+  margin: 20px 0 40px 0;
+}
+
+.pics-container > * {
+  bottom: 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Ajuste conforme necessário */
+.card-1 {
+  transform: rotate(-20deg) translateY(200px);
+  z-index: 2;
+}
+.card-2 {
+  transform: rotate(-10deg) translateY(100px);
+  z-index: 1;
+}
+.card-3 {
+  transform: rotate(0) translateY(10px);
+  z-index: 3;
+}
+.card-4 {
+  transform: rotate(10deg) translateY(100px);
+  z-index: 2;
+}
+
+.card-5 {
+  transform: rotate(20deg) translateY(200px);
+  z-index: 1;
+}
+
+
+@media (max-width: 765px) {
+ .pics-container {
+  flex-wrap: wrap;
+  gap: 15px;
+ }
+
+ .card-1 {
+  transform: rotate(10deg) translateY(0);
+  z-index: 2;
+}
+.card-2 {
+  transform: rotate(-10deg) translateY(0);
+  z-index: 1;
+}
+.card-3 {
+  transform: rotate(0) translateY(0);
+  z-index: 3;
+}
+.card-4 {
+  transform: rotate(10deg) translateY(0);
+  z-index: 2;
+}
+
+.card-5 {
+  transform: rotate(20deg) translateY(0);
+  z-index: 1;
+}
+}
