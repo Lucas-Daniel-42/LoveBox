@@ -19,7 +19,7 @@ const Home = () => {
           <Button content="Registrar Memórias" to="/form" className="btn-large"/>
         </div>
      
-          <div className="hero-image"><img src="../../src/assets/img/banner-hero.png"></img></div>
+          <div className="hero-image"><img src="../../../src/assets/img/banner-hero.png"></img></div>
           <Button content="Registrar Memórias" className="btn-mobile"></Button>
       </div>
     </main>
