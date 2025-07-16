@@ -1,7 +1,7 @@
 import Formulario from "../Form"
 import MiniPreviewPage from "../MiniPreviewPage";
 import { useState } from 'react'
-
+import './FormPage.css'
 
 const FormPage = () => {
     const [formData, setFormData] = useState({
@@ -15,19 +15,17 @@ const FormPage = () => {
   });
 
   return (
-    <>
-      <div className="spacer" />
-
-      <div className="app-container">
+    <div className="form-page">
+     
         <div className="form-section">
           <Formulario formData={formData} setFormData={setFormData} />
         </div>
 
+       
         <div className="preview-section">
           <MiniPreviewPage formData={formData} />
         </div>
-      </div>
-    </>
+    </div>
   )
 }
 

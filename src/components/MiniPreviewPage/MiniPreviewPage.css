@@ -6,22 +6,30 @@
 .mini-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    background-color: #0E0F2F;
+    
+    background: linear-gradient(132deg, #d9d9d9,  
+    #BC101F, #F285B4, #BC101F,#F285B4);
+    background-size: 1400% 1400%;
+
+    -webkit-animation:  45s ease infinite;
+    -moz-animation:  45s ease infinite;
+    animation:  45s ease infinite;
     border-radius: 8px;
     height: auto;
+    min-height: 94vh;
   }
   
   .mini-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 30%;
     width: 100%;
     max-width: 500px;
-    border: 1px solid #0E0F2F;
-    color: #ddd;
+    border: 1px solid #d9d9d9;
+    color: #0E0F2F;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.096);
     padding: 1.5rem;
     gap: 25px;
     text-align: center;
@@ -31,7 +39,9 @@
     display: flex;
     justify-content: center;
     align-items: top;
-    height: 45%;
+    width: 90%;
+    min-height: 100%;
+    height: 35%;
     background-image: url('..//..//assets/SVG/bg_title.svg');
     background-size: cover;
     background-repeat: none;
@@ -46,6 +56,8 @@
     font-family: beijocas, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 1rem;
     font-size: 6em;
+    max-width: 400px;
+    word-wrap: break-word;
   }
 
   .mini-title .and {
@@ -59,6 +71,9 @@
   .mini-message {
     font-style: italic;
     margin-bottom: 1rem;
+    width: 300px;
+    word-wrap: break-word;
+    margin-bottom: 30px;
   }
 
   .mini-image {
